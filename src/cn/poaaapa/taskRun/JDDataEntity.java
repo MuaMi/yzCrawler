@@ -1,5 +1,7 @@
 package cn.poaaapa.taskRun;
 
+import java.util.List;
+
 /**
  * 京东数据模板
  * 商品id，商品名称，商品信息，商品价格，商品评论
@@ -9,7 +11,7 @@ public class JDDataEntity {
     String goodsName;//商品名称
     String goodsInfo;//商品信息
     String goodsPrice;//商品价格
-    String comments;//商品评论
+    List<String> comments;//商品评论
 
     public Long getId() {
         return id;
@@ -43,11 +45,11 @@ public class JDDataEntity {
         this.goodsPrice = goodsPrice;
     }
 
-    public String getComments() {
+    public List<String> getComments() {
         return comments;
     }
 
-    public void setComments(String comments) {
+    public void setComments(List<String> comments) {
         this.comments = comments;
     }
 }

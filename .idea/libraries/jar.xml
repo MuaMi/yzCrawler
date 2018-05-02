@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="jar">
+    <CLASSES>
+      <root url="file://D:/jar" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://D:/jar/commons-logging-1.2/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://D:/jar/mysql-connector-java-5.1.15/mysql-connector-java-5.1.15/src" />
+      <root url="file://D:/jar/mysql-connector-java-5.1.45/src" />
+      <root url="file://D:/jar" />
+    </SOURCES>
+    <jarDirectory url="file://D:/jar" recursive="false" />
+    <jarDirectory url="file://D:/jar" recursive="false" type="SOURCES" />
+  </library>
+</component>
